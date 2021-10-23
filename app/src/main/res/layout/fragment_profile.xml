@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#204F95">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_centerInParent="true"
+        android:text="Ini adalah tampilan PROFILE"
+        android:textSize="27sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_above="@+id/textView"
+        android:layout_marginBottom="143dp"
+        android:layout_marginTop="20dp"
+        android:src="@mipmap/ic_photo" />
+</RelativeLayout>
